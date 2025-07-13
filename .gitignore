@@ -1,0 +1,29 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Dipendenze Node.js
+**/node_modules/  
+
+# Output di build
+**/dist/
+**/.next/
+
+# Cache di TypeScript
+**/*.tsbuildinfo
+
+# File di log
+logs/
+*.log
+pnpm-debug.log*
+
+# Env vars
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
